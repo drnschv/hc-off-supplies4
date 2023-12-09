@@ -1,0 +1,29 @@
+locale,name,descr,code
+de,Euro,European Euro,EUR
+de,US-Dollar,United States Dollar,USD
+de,Kanadischer Dollar,Kanadischer Dollar,CAD
+de,Australischer Dollar,Australischer Dollar,AUD
+de,Pfund,Britische Pfund,GBP
+de,Schekel,Israelische Schekel,ILS
+de,Peso,Peso Argentino,ARS
+fr,euro,de la Zone euro,EUR
+fr,dollar,dollar des États-Unis,USD
+fr,dollar canadien,dollar canadien,CAD
+fr,dollar australien,dollar australien,AUD
+fr,livre sterling,pound sterling,GBP
+fr,Shekel,shekel israelien,ILS
+fr,Peso,Peso Argentino,ARS
+es,Peso,Peso Argentino,ARS
+es,euro,de la Zone euro,EUR
+es,dollar,dollar des États-Unis,USD
+es,dollar canadien,dollar canadien,CAD
+es,dollar australien,dollar australien,AUD
+es,livre sterling,pound sterling,GBP
+es,Shekel,shekel israelien,ILS
+en,Peso,Peso Argentino,ARS
+en,euro,de la Zone euro,EUR
+en,dollar,dollar des États-Unis,USD
+en,dollar canadien,dollar canadien,CAD
+en,dollar australien,dollar australien,AUD
+en,livre sterling,pound sterling,GBP
+en,Shekel,shekel israelien,ILS
