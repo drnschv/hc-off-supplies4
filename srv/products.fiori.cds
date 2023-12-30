@@ -63,11 +63,14 @@ annotate CatalogService.Products with @(UI: {
         Value: price,
         Title: '{i18n>Cat.HeaderPrice}'
     },
-    FieldGroup #Description   : {Data: [{
-        $Type: 'UI.DataField',
-        Value: description
-    }]},
-    FieldGroup #ProductDetail : {Data: [
+    FieldGroup #Description   : {
+        Data: [{
+            $Type: 'UI.DataField',
+            Value: description
+        }]
+    },
+    FieldGroup #ProductDetail : {
+        Data: [
         {
             $Type: 'UI.DataField',
             Value: identifier
@@ -77,7 +80,8 @@ annotate CatalogService.Products with @(UI: {
             Value: availability
         }
     ]},
-    FieldGroup #SupplierDetail: {Data: [
+    FieldGroup #SupplierDetail: {
+        Data: [
         {
             $Type: 'UI.DataField',
             Value: supplier.identifier

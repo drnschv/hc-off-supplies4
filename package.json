@@ -16,10 +16,12 @@
   "devDependencies": {
     "@cap-js/sqlite": "^1",
     "@sap/cds-dk": "^7",
-    "@sap/hdi-deploy": "4.8.2"
+    "@sap/hdi-deploy": "4.8.2",
+    "@sap/ux-specification": "^1.120.0"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-osfiori": "cds watch --open osfiori/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "hana": {
@@ -28,5 +30,8 @@
     "requires": {
       "db": "hana"
     }
-  }
+  },
+  "sapux": [
+    "app/osfiori"
+  ]
 }
